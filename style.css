@@ -1,0 +1,103 @@
+.apuesta input
+{
+    position: relative;
+    top: 40px;
+    right: 10px;
+    width: 165px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: goldenrod;
+}
+
+.apuesta label
+{
+    position: relative;
+    top: 0px;
+    left: 130px;
+    width: 160px;
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;    
+    color: #FFA500;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+.titulo h1 {
+    text-align: center;
+    font-size: 5em;
+    color: #FFA500;
+    border: rgb(215, 209, 225);
+  }
+
+
+body{
+    background-image:url(Imaganes/fondo.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contenedor{
+    margin: 50,50,50,50;
+    cursor: pointer;
+}
+
+#a{
+    float:left; width:20%;height:30%;
+}
+
+img{
+    height: 300px;width: 200px; align-self: center;
+    border: 4px solid black;
+    border-radius: 15px;
+}
+
+.carta.clicked
+{
+    border-color: #ff0000;
+}
+
+.botones-juego{
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 15vh;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botones-juego button
+{
+    font-family: 'Montserrat', sans-serif; /* fuente personalizada */
+    font-weight: bold; /* negrita */
+    text-transform: uppercase; /* texto en mayúsculas */
+    letter-spacing: 1px; /* espaciado entre letras */
+    font-size: 12px; /* tamaño de letra */
+    top: 50px;
+    margin: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FFA500;
+}
+button:hover {
+    background-color: #F0DB4F;
+  }
+#checkboxes{
+    display: none;
+}
+#botonEsquina {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+ 
